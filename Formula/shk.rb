@@ -1,25 +1,25 @@
 class Shk < Formula
   desc "shk CLI"
   homepage "https://github.com/Kazuki-tam/security-harness-kit"
-  version "0.7.0"
+  version "0.7.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Kazuki-tam/security-harness-kit/releases/download/v0.7.0/shk-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "8a644b4b0ef3006652b88c04f7d8507e5ddea8d71186f6a179628faa8c2ebca0"
+      url "https://github.com/Kazuki-tam/security-harness-kit/releases/download/v0.7.1/shk-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "d7470f4810ae839636b033372ef67df43c8e61d9ac97e55b39e0174d19f116a7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Kazuki-tam/security-harness-kit/releases/download/v0.7.0/shk-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "0d49d75718409631201690499ac3e7ce6f37530c02f8717c8e89a60a06d85d1f"
+      url "https://github.com/Kazuki-tam/security-harness-kit/releases/download/v0.7.1/shk-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "c2a053d658c133a1fcd98ce8c4a2bb22da9784f605eef502b2f30ed43d00e2f0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Kazuki-tam/security-harness-kit/releases/download/v0.7.0/shk-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e3af07213b0eeabf5a5333c67371a86a2c32f69569880094bbb95b80277cecc6"
+      url "https://github.com/Kazuki-tam/security-harness-kit/releases/download/v0.7.1/shk-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "753c9023bb5dfca9a53d8faf00849e997c4be71151870d0ee513f5b994543fc1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Kazuki-tam/security-harness-kit/releases/download/v0.7.0/shk-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c0bd272b2a7390f08f14ebd9fda0e91b642d891abc433155c11277facf016057"
+      url "https://github.com/Kazuki-tam/security-harness-kit/releases/download/v0.7.1/shk-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "089ef5ea164e70d93c6dd2841d995b869f83024822c410ef8574c3a7ff51d982"
     end
   end
   license "MIT"
